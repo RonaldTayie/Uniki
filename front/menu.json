@@ -1,0 +1,42 @@
+{
+	"Categories":"all/lunch/breakfast/dinner",
+	"Currency":"ZAR:R",
+	"Meals":{
+		"0":{
+			"img":"img15.jpg",
+			"Description":"A nice meal for a lunch n the run",
+			"Category":"lunch",
+			"Price":"20"
+		},
+		"1":{
+			"img":"img8.jpg",
+			"Description":"Breakfast is th most important meal of the day, so make today and tommorow's meals special by grabing having the the Uniki way.",
+			"Category":"breakfast",
+			"Price":"30"
+		},
+		"2":{
+			"img":"img2.jpg",
+			"Description":"A Uniki dinner is a Special Dinner ",
+			"Category":"dinner",
+			"Price":"40"
+		},
+		"3":{
+			"img":"img5.jpg",
+			"Description":"A Uniki meal for Dinner. You'll only knock your socks off when you get home to rest.",
+			"Category":"Dinner",
+			"Price":"20"
+		},
+		"4":{
+			"img":"img14.jpg",
+			"Description":"Dodge Your fast and feat for lunch",
+			"Category":"lunch",
+			"Price":"25"
+		},
+		"5":{
+			"img":"img27.jpg",
+			"Description":"Get ready to squach the day's work with these great, flat and tastty pan cakes.",
+			"Category":"Breakfast",
+			"Price":"35"
+		}
+	}
+}
