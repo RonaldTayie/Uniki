@@ -1,7 +1,5 @@
 $(document).ready(function(){
-
 loadMenu();
-
 	$('#Menu_BreakFast').click(function(){
 		$("#breakfast").removeClass('active');
 		$("#lunch").addClass('active');
@@ -22,11 +20,9 @@ loadMenu();
 		$("#lunch").removeClass('active');
 		$("#dinner").removeClass('active');
 	});
-	
 	$('nav a').click(function(){
 		event.preventDefault();
 	});
-
 	$("#intro_Link").click(function(){
 		scroll_To_View("intro");
 		return false;
@@ -61,7 +57,6 @@ function scroll_To_View(viewname){
 		scrollTop: $(view).offset().top
 	},2000);
 }
-
 function loadMenu(){
   $("#Menu_list").load("front/menu.php");
 }
